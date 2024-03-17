@@ -1,0 +1,108 @@
+.footer{
+    padding-top: 96px;
+    background-color: #1C1E53;
+}
+.footer_logo p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    color: #FFFFFF;
+    opacity: 0.8;
+    margin-top: 15px;
+}
+.footer_contact{
+    height: 95px;
+    width: 100%;
+    display: flex;
+    background-color: #FCD980;
+    margin-top: 80px;
+    align-items: center;
+    padding-left: 37px;
+}
+.footer_contact_mail h4{
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 32px;
+    color: #282938;
+}
+.footer_contact_mail a{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #282938;
+    opacity: 0.8;
+    text-decoration: none;
+}
+
+.footer_contact_call{
+    padding-left: 29px;
+}
+.footer_contact_call h4{
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 32px;
+    color: #282938;
+}
+.footer_contact_call a{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #282938;
+    opacity: 0.8;
+    text-decoration: none;
+}
+
+.footer_talk h3{
+    font-family: 'Poppins', sans-serif;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 64px;
+    color: #FFFFFF;
+}
+.footer_talk p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #F4F6FC;
+    opacity: 0.8;
+}
+.footer_talk_icon a{
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #F4F6FC;
+    margin-right: 26px;
+    text-decoration: none;
+}
+
+.footer_menu{
+    padding: 32px 0 15px 0 ;
+}
+.footer_menu_text h5{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    color: #282938;
+}
+
+.footer_menu_main ul li{
+    display: inline-block;
+    padding-left: 10px !important;
+}
+.footer_menu_main ul li a{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    color: #282938;
+    text-decoration: none;
+    padding-left: 20px !important;
+}

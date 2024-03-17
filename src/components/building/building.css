@@ -1,0 +1,108 @@
+.building_img{
+    background: url(../../assets/woman-writing.png) no-repeat center / cover;
+    height: 691px;
+}
+.building_img h3{
+    font-family: 'Poppins', sans-serif;
+    font-size: 54px;
+    font-weight: 600;
+    line-height: 74px;
+    color: #FFFFFF;
+    padding: 96px 96px 0 96px;
+}
+.building_img p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    color: #FFFFFF;
+    margin-top: 24px;
+    padding: 24px 96px 0 96px;
+}
+
+.building_text{
+    background: #1C1E53;
+    height: 691px;
+}
+.building_text h3{
+    font-family: 'Poppins', sans-serif;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 48px;
+    color: #FFFFFF;
+    padding: 96px 0 0 96px;
+}
+.building_text p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    color: #F4F6FC;
+    padding: 16px 0 0 96px;
+}
+.building_text .name{
+    height: 64px;
+    margin: 40px 0 0 96px;
+    width: 330px;
+    border: none;
+    padding-left: 25px;
+    border-radius: 8px;
+    border: 1.5px solid rgba(255, 255, 255, 0.05);
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+}
+.building_text .email{
+    height: 64px;
+    margin: 16px 0 0 96px;
+    width: 330px;
+    border: none;
+    padding-left: 25px;
+    border-radius: 8px;
+    border: 1.5px solid rgba(255, 255, 255, 0.05);
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+}
+.building_text .figma{
+    height: 64px;
+    margin: 16px 0 0 96px;
+    width: 330px;
+    border: none;
+    padding-left: 25px;
+    border-radius: 8px;
+    border: 1.5px solid rgba(255, 255, 255, 0.05);
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+}
+.building_text .btn{
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 32px;
+    color: #1B1C2B;
+    padding: 16px 95px;
+    background-color: #FCD980;
+    margin: 20px 0 0 96px;
+    border-radius: 41px;
+    -webkit-border-radius: 41px;
+    -moz-border-radius: 41px;
+    -ms-border-radius: 41px;
+    -o-border-radius: 41px;
+}
+
+.building_click {
+    text-align: center;
+    margin-top: 28px;
+}
+.building_click a{
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 32px;
+    color: #FFFFFF;
+}

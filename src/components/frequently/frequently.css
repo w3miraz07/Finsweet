@@ -1,0 +1,19 @@
+#frequently{
+    padding: 128px 0;
+}
+.frequently_text h3{
+    font-family: 'Poppins', sans-serif;
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 56px;
+    color: #282938;
+    padding-bottom: 16px;
+}
+.frequently_text a{
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 32px;
+    color: #2405F2;
+    opacity: 0.87;
+}
