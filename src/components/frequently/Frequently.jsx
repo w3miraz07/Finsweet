@@ -1,6 +1,7 @@
 import React from 'react'
 import "./frequently.css"
 import { Col, Container, Row, Accordion } from 'react-bootstrap'
+import { Link } from 'react-router-dom'
 
 const Frequently = () => {
     return (
@@ -11,7 +12,7 @@ const Frequently = () => {
                         <Col lg={4}>
                             <div class="frequently_text">
                                 <h3>Frequently asked questions</h3>
-                                <a href="contact.html">Contact us for more info</a>
+                                <Link to={"/Contact"}>Contact us for more info</Link>
                             </div>
                         </Col>
 

@@ -1,0 +1,36 @@
+#created{
+    padding: 90px 0;
+    background-color: #F4F6FC;
+}
+.created_text{
+    text-align: center;
+}
+.created_text h4{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    color: #282938;
+    opacity: 0.7;
+}
+.created_text h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 64px;
+    color: #282938;
+}
+.created_text p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    color: #282938;
+    opacity: 0.7;
+    padding: 0 187px;
+}
+.created_text_icon a{
+    font-size: 16px;
+    padding: 0 10px;
+    color: #282938;
+}

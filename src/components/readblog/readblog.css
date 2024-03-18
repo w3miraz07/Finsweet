@@ -1,0 +1,27 @@
+#read{
+    padding: 100px 0 0 0 !important;
+}
+.read_text{
+    text-align: center;
+}
+.read_text h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 48px;
+    line-height: 64px;
+    font-weight: 600;
+    color: #282938;
+    padding: 0 100px;
+}
+.read_text h3{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 500;
+    color: #282938;
+}
+.read_img{
+    margin-top: 20px !important;
+}
+.read_img img{
+    width: 100%;
+}

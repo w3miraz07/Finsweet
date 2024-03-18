@@ -1,0 +1,33 @@
+#client{
+    padding: 50px 0;
+}
+.user_text{
+    margin-top: 50px;
+    padding-right: 50px;
+}
+.user_text h5{
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    line-height: 32px;
+    font-weight: 500;
+    color: #000000;
+    opacity: 0.87;
+}
+.user_text h3{
+    font-family: 'Poppins', sans-serif;
+    font-size: 38px;
+    line-height: 56px;
+    font-weight: 600;
+    color: #232536;
+}
+.user_text p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 400;
+    color: #282938;
+    opacity: 0.6;
+}
+.user_img img{
+    width: 100%;
+}

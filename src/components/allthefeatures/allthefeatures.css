@@ -1,0 +1,50 @@
+#banner{
+    padding-top: 126px;
+    padding-bottom: 128px;
+    background-color: #1C1E53;
+}
+.ban_text{
+    margin-top: 75px;
+}
+.ban_text h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 74px;
+    color: #FFFFFF;
+    padding-right: 50px;
+}
+.ban_text p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    opacity: 0.7;
+    color: #FFFFFF;
+    margin-top: 24px;
+}
+.banner_button a{
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 32px;
+    color: #1B1C2B;
+    padding: 16px 56px;
+    background-color: #FCD980;
+    border-radius: 41px;
+    -webkit-border-radius: 41px;
+    -moz-border-radius: 41px;
+    -ms-border-radius: 41px;
+    -o-border-radius: 41px;
+}
+.banner_button{
+    margin-top: 48px;
+    position: relative;
+    height: 50px;
+}
+.banner_img{
+    margin-top: 25px;
+}
+.banner_img img{
+    width: 100%;
+}

@@ -1,0 +1,1071 @@
+/* <!---------------------------- Our Pricing Plans Part Start -----------------> */
+#pricing{
+    padding: 100px 0 50px 0;
+}
+.pricing_text{
+    text-align: center;
+}
+.pricing_text h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 48px;
+    line-height: 64px;
+    font-weight: 600;
+    color: #282938;
+}
+.pricing_text p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 500;
+    color: #282938;
+    opacity: 0.7;
+    padding: 0 268px;
+}
+
+/*------------ pricing_card1 part start ------------*/
+.pricing_card{
+    margin-top: 50px !important;
+}
+.pricing_card1{
+    background: var(--Grey, #F4F6FC);
+    padding: 64px 0 62px 48px;
+    position: relative;
+    border-radius: 12px;
+    overflow: hidden;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+}
+.pricing_card1::before{
+    position: absolute;
+    content: '';
+    left: -390px;
+    bottom: 130px;
+    height: 1151px;
+    width: 1151px;
+    background: rgba(255, 255, 255, 0.06);
+    z-index: 999;
+    opacity: 0;
+    border-radius: 50%;
+    transition: 0.5s;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+.pricing_card1:hover::before{
+    opacity: 1;
+}
+.pricing_card1::after{
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    background-color: #1C1E53;
+    border-radius: 12px;
+    transition: 0.5s;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+.pricing_card1:hover::after{
+    opacity: 1;
+}
+.pricing_card1_dlr{
+    position: relative;
+    z-index: 999;
+}
+.pricing_card1_dlr h4{
+    font-family: 'Poppins', sans-serif;
+    font-size: 38px;
+    line-height: 56px;
+    font-weight: 600;
+    color: #282938;
+    z-index: 2;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+.pricing_card1:hover .pricing_card1_dlr h4{
+    color: #FFFFFF;
+}
+.pricing_card1_dlr span{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 400;
+    color: #2405F2;
+    position: absolute;
+    top: 10%;
+    left: 35%;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+.pricing_card1:hover .pricing_card1_dlr span{
+    color: #FCD980;
+}
+.pricing_card1_dlr h5{
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 500;
+    color: #282938;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+.pricing_card1:hover .pricing_card1_dlr h5{
+    color: #FFFFFF;
+}
+.pricing_card1_dlr p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 500;
+    padding-right: 20px;
+    color: #282938;
+    opacity: 0.7;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+.pricing_card1:hover .pricing_card1_dlr p{
+    color: #FFFFFF;
+}
+.pricing_card1_list1{
+    position: relative;
+    margin-top: 49px;
+    z-index: 999;
+    display: flex;
+}
+.pricing_card1_list1 i{
+    font-size: 26px;
+    color: #97DAAD;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+.pricing_card1:hover .pricing_card1_list1 i{
+    color: #97DAAD;
+}
+.pricing_card1_list1 span{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 400;
+    color: #282938;
+    position: absolute;
+    top: 12px;
+    left: 8%;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+.pricing_card1:hover .pricing_card1_list1 span{
+    color: #FFFFFF;
+}
+.pricing_card1_list2{
+    position: relative;
+    margin-top: 10px;
+    z-index: 999;
+}
+.pricing_card1_list2 i{
+    font-size: 26px;
+    color: #97DAAD;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+.pricing_card1:hover .pricing_card1_list2 i{
+    color: #97DAAD;
+}
+.pricing_card1_list2 span{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 400;
+    color: #282938;
+    position: absolute;
+    top: 12px;
+    left: 8%;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+.pricing_card1:hover .pricing_card1_list2 span{
+    color: #FFFFFF;
+}
+.pricing_card1_list3{
+    position: relative;
+    margin-top: 10px;
+    z-index: 999;
+}
+.pricing_card1_list3 i{
+    font-size: 26px;
+    color: #97DAAD;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+.pricing_card1:hover .pricing_card1_list3 i{
+    color: #97DAAD;
+}
+.pricing_card1_list3 span{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 400;
+    color: #282938;
+    position: absolute;
+    top: 12px;
+    left: 8%;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+.pricing_card1:hover .pricing_card1_list3 span{
+    color: #FFFFFF;
+}
+.pricing_card1_list4{
+    position: relative;
+    margin-top: 10px;
+    z-index: 999;
+}
+.pricing_card1_list4 i{
+    font-size: 26px;
+    color: #282938;
+    opacity: 0.7;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+.pricing_card1:hover .pricing_card1_list4 i{
+    color: #282938;
+    opacity: 0.7;
+}
+.pricing_card1_list4 span{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 400;
+    color: #282938;
+    position: absolute;
+    opacity: 0.7;
+    top: 12px;
+    left: 8%;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+.pricing_card1:hover .pricing_card1_list4 span{
+    color: #282938;
+    opacity: 0.7;
+}
+.pricing_card1_list5{
+    position: relative;
+    margin-top: 10px;
+    z-index: 999;
+}
+.pricing_card1_list5 i{
+    font-size: 26px;
+    color: #282938;
+    opacity: 0.7;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+.pricing_card1:hover .pricing_card1_list5 i{
+    color: #282938;
+}
+.pricing_card1_list5 span{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 400;
+    color: #282938;
+    position: absolute;
+    opacity: 0.7;
+    top: 12px;
+    left: 8%;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+.pricing_card1:hover .pricing_card1_list5 span{
+    color: #282938;
+    opacity: 0.7;
+}
+.pricing_card1_btn{
+    margin-top: 83px;
+    margin-left: 10px;
+    position: relative;
+    z-index: 999;
+}
+.pricing_card1_btn a{
+    padding: 16px 77.5px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    line-height: 32px;
+    font-weight: 600;
+    color: #F4F6FC;
+    background-color: #282938;
+    border-radius: 41px;
+    transition: 0.5s;
+    -webkit-border-radius: 41px;
+    -moz-border-radius: 41px;
+    -ms-border-radius: 41px;
+    -o-border-radius: 41px;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+.pricing_card1:hover .pricing_card1_btn a{
+    color: #282938;
+    background-color: #FCD980;
+}
+/*-------------- pricing_card1 part start -------------*/
+
+/*-------------- pricing_card2 part start -------------*/
+.pricing_card2{
+    background: var(--Grey, #F4F6FC);
+    padding: 64px 0 62px 48px;
+    border-radius: 12px;
+    position: relative;
+    overflow: hidden;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+}
+.pricing_card2::before{
+    position: absolute;
+    content: '';
+    left: -390px;
+    bottom: 130px;
+    height: 1151px;
+    width: 1151px;
+    background: rgba(255, 255, 255, 0.06);
+    z-index: 999;
+    opacity: 0;
+    border-radius: 50%;
+    transition: 0.5s;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+.pricing_card2:hover::before{
+    opacity: 1;
+}
+.pricing_card2::after{
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    background-color: #1C1E53;
+    border-radius: 12px;
+    transition: 0.5s;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+.pricing_card2:hover::after{
+    opacity: 1;
+}
+.pricing_card2_dlr{
+    position: relative;
+    z-index: 999;
+}
+.pricing_card2_dlr h4{
+    font-family: 'Poppins', sans-serif;
+    font-size: 38px;
+    line-height: 56px;
+    font-weight: 600;
+    color: #282938;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+.pricing_card2:hover .pricing_card2_dlr h4{
+    color: #FFFFFF;
+}
+.pricing_card2_dlr span{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 400;
+    color: #2405F2;
+    position: absolute;
+    top: 10%;
+    left: 35%;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+.pricing_card2:hover .pricing_card2_dlr span{
+    color: #FCD980;
+}
+.pricing_card2_dlr h5{
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 500;
+    color: #282938;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+.pricing_card2:hover .pricing_card2_dlr h5{
+    color: #FFFFFF;
+}
+.pricing_card2_dlr p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 500;
+    color: #282938;
+    padding-right: 100px;
+    opacity: 0.7;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+.pricing_card2:hover .pricing_card2_dlr p{
+    color: #FFFFFF;
+}
+.pricing_card2_list1{
+    position: relative;
+    margin-top: 21px;
+    z-index: 999;
+}
+.pricing_card2_list1 i{
+    font-size: 26px;
+    color: #97DAAD;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+.pricing_card2:hover .pricing_card2_list1 i{
+    color: #97DAAD;
+}
+.pricing_card2_list1 span{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 400;
+    color: #282938;
+    position: absolute;
+    top: 12px;
+    left: 8%;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+.pricing_card2:hover .pricing_card2_list1 span{
+    color: #FFFFFF;
+}
+.pricing_card2_list2{
+    position: relative;
+    margin-top: 10px;
+    z-index: 999;
+}
+.pricing_card2_list2 i{
+    font-size: 26px;
+    color: #97DAAD;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+.pricing_card2:hover .pricing_card2_list2 i{
+    color: #97DAAD;
+}
+.pricing_card2_list2 span{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 400;
+    color: #282938;
+    position: absolute;
+    top: 12px;
+    left: 8%;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+.pricing_card2:hover .pricing_card2_list2 span{
+    color: #FFFFFF;
+}
+.pricing_card2_list3{
+    position: relative;
+    margin-top: 10px;
+    z-index: 999;
+}
+.pricing_card2_list3 i{
+    font-size: 26px;
+    color: #97DAAD;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+.pricing_card2:hover .pricing_card2_list3 i{
+    color: #97DAAD;
+}
+.pricing_card2_list3 span{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 400;
+    color: #282938;
+    position: absolute;
+    top: 12px;
+    left: 8%;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+.pricing_card2:hover .pricing_card2_list3 span{
+    color: #FFFFFF;
+}
+.pricing_card2_list4{
+    position: relative;
+    margin-top: 10px;
+    z-index: 999;
+}
+.pricing_card2_list4 i{
+    font-size: 26px;
+    color: #97DAAD;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+.pricing_card2:hover .pricing_card2_list4 i{
+    color: #97DAAD;
+}
+.pricing_card2_list4 span{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 400;
+    color: #282938;
+    position: absolute;
+    top: 12px;
+    left: 8%;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+.pricing_card2:hover .pricing_card2_list4 span{
+    color: #FFFFFF;
+}
+.pricing_card2_list5{
+    position: relative;
+    margin-top: 10px;
+    z-index: 999;
+}
+.pricing_card2_list5 i{
+    font-size: 26px;
+    color: #97DAAD;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+.pricing_card2:hover .pricing_card2_list5 i{
+    color: #97DAAD;
+}
+.pricing_card2_list5 span{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 400;
+    color: #282938;
+    position: absolute;
+    top: 12px;
+    left: 8%;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+.pricing_card2:hover .pricing_card2_list5 span{
+    color: #FFFFFF;
+}
+.pricing_card2_btn{
+    margin-top: 83px;
+    margin-left: 10px;
+    position: relative;
+    z-index: 999;
+}
+.pricing_card2_btn a{
+    padding: 16px 77.5px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    line-height: 32px;
+    font-weight: 600;
+    color: #F4F6FC;
+    background-color: #282938;
+    border-radius: 41px;
+    transition: 0.5s;
+    -webkit-border-radius: 41px;
+    -moz-border-radius: 41px;
+    -ms-border-radius: 41px;
+    -o-border-radius: 41px;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+.pricing_card2:hover .pricing_card2_btn a{
+    color: #282938;
+    background-color: #FCD980;
+}
+/*-------------- pricing_card2 part end -------------*/
+
+/*-------------- pricing_card3 part end -------------*/
+.pricing_card3{
+   background: var(--Grey, #F4F6FC);
+   padding: 64px 0 62px 48px;
+   border-radius: 12px;
+   position: relative;
+   overflow: hidden;
+   border-radius: 12px;
+   -webkit-border-radius: 12px;
+   -moz-border-radius: 12px;
+   -ms-border-radius: 12px;
+   -o-border-radius: 12px;
+}
+.pricing_card3::before{
+    position: absolute;
+    content: '';
+    left: -390px;
+    bottom: 130px;
+    height: 1151px;
+    width: 1151px;
+    background: rgba(255, 255, 255, 0.06);
+    z-index: 999;
+    opacity: 0;
+    border-radius: 50%;
+    transition: 0.5s;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+.pricing_card3:hover::before{
+    opacity: 1;
+}
+.pricing_card3::after{
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    background-color: #1C1E53;
+    border-radius: 12px;
+    transition: 0.5s;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+.pricing_card3:hover::after{
+    opacity: 1;
+}
+.pricing_card3_dlr{
+    position: relative;
+    z-index: 999;
+}
+.pricing_card3_dlr h4{
+    font-family: 'Poppins', sans-serif;
+    font-size: 38px;
+    line-height: 56px;
+    font-weight: 600;
+    color: #282938;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+.pricing_card3:hover .pricing_card3_dlr h4{
+    color: #FFFFFF;
+}
+.pricing_card3_dlr span{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 400;
+    color: #2405F2;
+    position: absolute;
+    top: 10%;
+    left: 43%;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+.pricing_card3:hover .pricing_card3_dlr span{
+    color: #FCD980;
+}
+.pricing_card3_dlr h5{
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 500;
+    color: #282938;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+.pricing_card3:hover .pricing_card3_dlr h5{
+    color: #FFFFFF;
+}
+.pricing_card3_dlr p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 500;
+    color: #282938;
+    padding-right: 30px;
+    opacity: 0.7;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+.pricing_card3:hover .pricing_card3_dlr p{
+    color: #FFFFFF;
+}
+.pricing_card3_list1{
+    position: relative;
+    z-index: 999;
+}
+.pricing_card3_list1 i{
+    font-size: 26px;
+    color: #97DAAD;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+.pricing_card3:hover .pricing_card3_list1 i{
+    color: #97DAAD;
+}
+.pricing_card3_list1 span{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 400;
+    color: #282938;
+    position: absolute;
+    top: 12px;
+    left: 8%;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+.pricing_card3:hover .pricing_card3_list1 span{
+    color: #FFFFFF;
+}
+.pricing_card3_list2{
+    position: relative;
+    margin-top: 10px;
+    z-index: 999;
+}
+.pricing_card3_list2 i{
+    font-size: 26px;
+    color: #97DAAD;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+.pricing_card3:hover .pricing_card3_list2 i{
+    color: #97DAAD;
+}
+.pricing_card3_list2 span{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 400;
+    color: #282938;
+    position: absolute;
+    top: 12px;
+    left: 8%;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+.pricing_card3:hover .pricing_card3_list2 span{
+    color: #FFFFFF;
+}
+.pricing_card3_list3{
+    position: relative;
+    margin-top: 10px;
+    z-index: 999;
+}
+.pricing_card3_list3 i{
+    font-size: 26px;
+    color: #97DAAD;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+.pricing_card3:hover .pricing_card3_list3 i{
+    color: #97DAAD;
+}
+.pricing_card3_list3 span{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 400;
+    color: #282938;
+    position: absolute;
+    top: 12px;
+    left: 8%;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+.pricing_card3:hover .pricing_card3_list3 span{
+    color: #FFFFFF;
+}
+.pricing_card3_list4{
+    position: relative;
+    margin-top: 10px;
+    z-index: 999;
+}
+.pricing_card3_list4 i{
+    font-size: 26px;
+    color: #97DAAD;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+.pricing_card3:hover .pricing_card3_list4 i{
+    color: #97DAAD;
+}
+.pricing_card3_list4 span{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 400;
+    color: #282938;
+    position: absolute;
+    top: 12px;
+    left: 8%;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+.pricing_card3:hover .pricing_card3_list4 span{
+    color: #FFFFFF;
+}
+.pricing_card3_list5{
+    position: relative;
+    margin-top: 10px;
+    z-index: 999;
+}
+.pricing_card3_list5 i{
+    font-size: 26px;
+    color: #97DAAD;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+.pricing_card3:hover .pricing_card3_list5 i{
+    color: #97DAAD;
+}
+.pricing_card3_list5 span{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 400;
+    color: #282938;
+    position: absolute;
+    top: 12px;
+    left: 8%;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+.pricing_card3:hover .pricing_card3_list5 span{
+    color: #FFFFFF;
+}
+.pricing_card3_list6{
+    position: relative;
+    margin-top: 10px;
+    z-index: 999;
+}
+.pricing_card3_list6 i{
+    font-size: 26px;
+    color: #97DAAD;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+.pricing_card3:hover .pricing_card3_list6 i{
+    color: #97DAAD;
+}
+.pricing_card3_list6 span{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 400;
+    color: #282938;
+    position: absolute;
+    top: 12px;
+    left: 8%;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+.pricing_card3:hover .pricing_card3_list6 span{
+    color: #FFFFFF;
+}
+.pricing_card3_btn{
+    margin-top: 65px;
+    margin-left: 10px;
+    position: relative;
+    z-index: 999;
+}
+.pricing_card3_btn a{
+    padding: 16px 77.5px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    line-height: 32px;
+    font-weight: 600;
+    color: #F4F6FC;
+    background-color: #282938;
+    border-radius: 41px;
+    transition: 0.5s;
+    -webkit-border-radius: 41px;
+    -moz-border-radius: 41px;
+    -ms-border-radius: 41px;
+    -o-border-radius: 41px;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+.pricing_card3:hover .pricing_card3_btn a{
+    color: #282938;
+    background-color: #FCD980;
+}

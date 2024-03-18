@@ -22,7 +22,7 @@ const Menu = () => {
             <Link to={"/Blog"}>Blog</Link>
           </Nav>
         <div className="contact">
-            <a href="#">Contact</a>
+            <Link to={"/Contact"}>Contact</Link>
         </div>
         </Navbar.Collapse>
       </Container>

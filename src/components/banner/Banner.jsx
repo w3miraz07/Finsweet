@@ -3,6 +3,7 @@ import "./banner.css"
 import { Col, Container, Row } from 'react-bootstrap'
 import banner_img from "../../assets/banner.png"
 import { FaLongArrowAltRight } from "react-icons/fa";
+import { Link } from 'react-router-dom';
 
 const Banner = () => {
     return (
@@ -15,10 +16,10 @@ const Banner = () => {
                                 <h1>Building stellar websites for early startups</h1>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
                                 <div class="banner_button">
-                                    <a href="work.html">View our work</a>
+                                    <Link to={"/Work"}>View our work</Link>
                                 </div>
                                 <div class="ban_text_price">
-                                    <a href="pricing.html">View Pricing <FaLongArrowAltRight /></a>
+                                    <Link to={"/Pricing"}>View Pricing <FaLongArrowAltRight/> </Link>
                                 </div>
                             </div>
                         </Col>
