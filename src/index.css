@@ -8,3 +8,6 @@ a{
 ul{
     list-style: none;
 }
+input{
+    outline: none;
+}

@@ -9,20 +9,20 @@ const Menu = () => {
     <>
      <Navbar expand="lg" className='menu_bg'>
       <Container>
-        <Link to={"/"}><img src={logo} alt="logo" /></Link>
+        <Link href={"/"}><img src={logo} alt="logo" /></Link>
         <Navbar.Brand href="#home"></Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto menu_nav">
-            <Link to={"/"}>Home</Link>
-            <Link to={"/About_us"}>About us</Link>
-            <Link to={"/Features"}>Features</Link>
-            <Link to={"/Pricing"}>Pricing</Link>
-            <Link to={"/FAQ"}>FAQ</Link>
-            <Link to={"/Blog"}>Blog</Link>
+            <Link href={"/"}>Home</Link>
+            <Link href={"/About_us"}>About us</Link>
+            <Link href={"/Features"}>Features</Link>
+            <Link href={"/Pricing"}>Pricing</Link>
+            <Link href={"/FAQ"}>FAQ</Link>
+            <Link href={"/Blog"}>Blog</Link>
           </Nav>
         <div className="contact">
-            <Link to={"/Contact"}>Contact</Link>
+            <Link href={"/Contact"}>Contact</Link>
         </div>
         </Navbar.Collapse>
       </Container>

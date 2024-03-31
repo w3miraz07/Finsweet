@@ -11,7 +11,7 @@ const Banner = () => {
             <section id='banner'>
                 <Container>
                     <Row>
-                        <Col lg={5}>
+                        <Col lg={{span:5, order:12}} sm={{order:1}}>
                             <div class="ban_text">
                                 <h1>Building stellar websites for early startups</h1>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
@@ -23,7 +23,7 @@ const Banner = () => {
                                 </div>
                             </div>
                         </Col>
-                        <Col lg={{ span: 6, offset: 1 }}>
+                        <Col lg={{ span: 6, offset: 1, order:1}} sm={{order:12}}>
                             <div class="banner_img">
                                 <img src={banner_img} alt="" />
                             </div>

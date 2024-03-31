@@ -8,14 +8,14 @@ const Building = () => {
     <section id='building'>
         <Container>
             <Row>
-                <Col lg={7}>
+                <Col lg={7} className='p-0'>
                 <div class="building_img">
                 <h3>Building stellar websites for early startups</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim.</p>
                 </div>
                 </Col>
 
-                <Col lg={5}>
+                <Col lg={5} className='p-0'>
                 <div class="building_text">
               <h3>Send inquiry</h3>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
